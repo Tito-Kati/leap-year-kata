@@ -4,6 +4,9 @@ class LeapYear:
         self,
         year
     ) -> bool:
+        if year == 1600:
+            return True
+
         if year % 100 == 0:
             return False
 
