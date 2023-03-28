@@ -7,8 +7,8 @@ class TestLeapYear:
         self,
     ):
         # Given
-        my_class = LeapYear()
+        leap_year = LeapYear()
         # When
 
         # Then
-        assert my_class.is_leap_year(1999) == False
+        assert leap_year.is_leap_year(1999) == False
