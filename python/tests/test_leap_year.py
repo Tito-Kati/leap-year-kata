@@ -9,7 +9,7 @@ class TestLeapYear:
         leap_year = LeapYear()
         assert leap_year.is_leap_year(1999) == False
 
-    def test_returns_true_if_year_divisible_by_4(
+    def test_returns_true_if_year_divisible_by_4_like_1996(
         self,
     ):
         leap_year = LeapYear()
