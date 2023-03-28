@@ -50,3 +50,15 @@ class TestLeapYear:
     ):
         leap_year = LeapYear()
         assert leap_year.is_leap_year(2000) == True
+
+    def test_1997_is_not_leap(
+        self
+    ):
+        leap_year = LeapYear()
+        assert leap_year.is_leap_year(1997) == False
+
+    def test_1800_is_not_leap(
+        self
+    ):
+        leap_year = LeapYear()
+        assert leap_year.is_leap_year(1800) == False
