@@ -4,7 +4,7 @@ class LeapYear:
         self,
         year
     ) -> bool:
-        if year == 1700:
+        if year % 100 == 0:
             return False
 
         return year % 4 == 0
