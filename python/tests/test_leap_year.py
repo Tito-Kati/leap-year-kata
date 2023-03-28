@@ -44,3 +44,9 @@ class TestLeapYear:
     ):
         leap_year = LeapYear()
         assert leap_year.is_leap_year(1600) == True
+
+    def test_returns_true_if_year_divisible_by_400_like_2000(
+        self,
+    ):
+        leap_year = LeapYear()
+        assert leap_year.is_leap_year(2000) == True
